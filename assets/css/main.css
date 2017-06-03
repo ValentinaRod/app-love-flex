@@ -42,3 +42,40 @@ body {
 	width: 70px;
 	height: 70px;
 }
+
+/*home*/
+
+#home{
+  height: 600px;
+  margin-top: 70px;
+
+  background-image: url('../imges/bg-home.jpg');
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+color: whitesmoke;
+}
+
+.text-home{
+  font-size: 30pxem;
+}
+
+ .btn-home{
+  background: #2Ecc71;
+  color: #fff;
+  padding: 11px 20px;
+  border-radius: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 63px;
+  display: inline-block;
+  font-size: 14px;
+ }
+
+ 
