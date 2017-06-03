@@ -12,6 +12,8 @@ body {
  	font-weight: 700;
  	padding: 21px;
  	display: inline-block;
+  text-decoration: none;
+  color: #000;
  }
 
  /*contenedor flexbox*/
@@ -78,4 +80,20 @@ color: whitesmoke;
   font-size: 14px;
  }
 
- 
+ #services{
+  background-color: #F17C72;
+  text-align: center;
+  color: #fff;
+  padding: 70px;
+ }
+
+ #services.flex-container{
+  justify-content: space-around;
+  flex-wrap: wrap;
+ }
+
+ .box-services{
+  font-size: 40px;
+  font-weight: bold;
+ }
+
